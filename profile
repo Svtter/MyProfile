@@ -20,7 +20,7 @@ function backup
 # 差单词
 function search
 {
-    /home/svitter/youdao/dict.py $1
+    python /home/svitter/youdao/dict.py $1
 }
 
 # 推送hexo
