@@ -6,4 +6,6 @@ echo "source $HOME/profile" >> $HOME/.zshrc
 mkdir -p $HOME/python/
 echo "import readline, rlcompleter; readline.parse_and_bind("tab: complete")" >> $HOME/python/.pythonstartup.py
 
-echo Done
+git clone http://git.oschina.net/svtter/YoudaoDict youdao
+
+echo All Done.
