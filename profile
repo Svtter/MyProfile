@@ -17,11 +17,18 @@ function backup
     cp $1 $1.bk
 }
 
-# 差单词
-function search
+# 单词
+function dict 
 {
     python $HOME/youdao/dict.py $1
 }
+
+# 单词
+function search 
+{
+    w3m dict.cn/$1
+}
+
 
 # 推送hexo
 function update-hexo
